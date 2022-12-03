@@ -84,10 +84,12 @@ def sum_priority_score(lines):
 
     return score
 
-### solution 1
+### used for both solutions
 print(sum_priority_score(lines))
 
 # Goal Part 2: 
 ### 1. Create Chunks where every set of 3 lines is a chunk
 ### 2. Find the unique matches from those chunks
 ### 3. Sum those unique matches together
+
+### I can tweak existing code by just creating a new grouping function and plugging that into a function. 
